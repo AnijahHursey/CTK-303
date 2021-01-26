@@ -1,0 +1,30 @@
+h2{
+  text-align: center;
+  border: 5px solid black;
+  padding: 30px 30px 30px 30px;
+  background-color: darkgray;
+}
+b{
+  text-align: center;
+  font-size: 60px;
+  font-family: cursive;
+}
+.penguin{
+  align-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 5px solid black;
+  padding: 10px 10px 10px 10px;
+  background-color: lightgray;
+}
+img{
+  align-self: center;
+  width: 389px;
+  height: 290px;
+}
+body{
+  background-image: url(images/background.jpg);
+
+}
