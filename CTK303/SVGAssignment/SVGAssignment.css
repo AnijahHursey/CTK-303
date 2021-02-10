@@ -1,0 +1,49 @@
+h1{
+font-size: 40px;
+font-family: fantasy;
+margin-left: 500px;
+}
+
+h2{
+font-size: 20px;
+font-family: fantasy;
+margin-left: 465px;
+}
+
+#Pingpong {
+  margin-left: 400px;
+  width: 700px;
+  display: block;
+}
+
+#white {
+    animation: whitepong 3.0s infinite;
+}
+
+@keyframes whitepong {
+  0%   { transform: translate(0, 0);}
+  50% { transform: translate(0, -290px);}
+  100%   { transform: translate(0, 0);}
+}
+
+#Gray {
+    animation: graypong 3.0s infinite;
+}
+
+@keyframes graypong {
+  0%   { transform: translate(0, 0);}
+  50% { transform: translate(0, 290px);}
+  100%   { transform: translate(0, 0);}
+}
+
+#Ball {
+      animation: ballpong 3.0s infinite;
+}
+
+@keyframes ballpong {
+  0%   { transform: translate(0, 0);}
+  25% { transform: translate(-160px, 270px);}
+  50%   { transform: translate(-330px, 0);}
+  75%   { transform: translate(-230px, -90px);}
+  100%   { transform: translate(0, 0);}
+}
