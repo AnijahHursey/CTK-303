@@ -13,7 +13,7 @@ header {
   text-align: center;
 }
 
-h3 {
+h2 {
   background-color: gray;
   border: 5px solid Black;
   Margin: 10px 10px 10px 10px;
@@ -32,7 +32,7 @@ main {
   #E3CB1C text-align: center;
 }
 
-h4 {
+h3 {
   background-color: gray;
   border: 5px solid Black;
   Margin: 10px 10px 10px 10px;
@@ -66,19 +66,19 @@ footer {
 }
 
 a:link {
-  color: lightgray;
+  color: black;
 }
 
 a:visited {
-  color: darkgray;
+  color: black;
 }
 
 a:hover {
-  color: gray;
+  color: darkgray;
 }
 
 a:active {
-  color: white;
+  color: black;
 }
 
 body {
