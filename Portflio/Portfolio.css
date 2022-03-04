@@ -1,14 +1,34 @@
 header{
-  padding-top: 5px;
+
+  border-style: solid;
+  border-color: white;
 }
+
+h4{
+margin-right:30px;
+margin-left:30px;
+font-size: 20px;
+}
+
+footer{
+  font-size: 30px;
+  border: 20px;
+  background-color: #357266;
+  margin-top: 5px;
+  margin-bottom:5px;
+  margin-right: 90%;
+  padding-left: 40px;
+  border-radius: 100px;
+}
+
 
 h1{
   color: black;
   text-align: center;
   font-size: 80px;
   text-align: justify;
-margin-left: 300px;
-padding-top: 65px;
+  margin-left: 300px;
+  padding-top: 65px;
 }
 
 img{
@@ -26,19 +46,178 @@ text-align: right;
   padding-left: 50px;
 }
 
-.circle {
-  height: 20px;
-  width: 20px;
-  background-color: white;
-  border-radius: 50%;
-  margin-left: 30%
+.pictexts{
+  column-count: 3;
+  column-gap: 30px;
+  column-rule-style: solid;
+  column-rule-width: 5px;
+  column-span: all;
+  column-width: 100px;
+  column-rule-color:#357266;
+  column-rule-style: none;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+
+.vidtexts{
+  column-count: 3;
+  column-gap: 30px;
+  column-rule-style: solid;
+  column-rule-width: 5px;
+  column-span: all;
+  column-width: 100px;
+  column-rule-color:#357266;
+  column-rule-style: none;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  margin-top: 1px;
+}
+
+.sound{
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align:center;
+  column-count: 1;
+  column-gap: 30px;
+  column-rule-style: solid;
+  column-rule-width: 5px;
+  column-span: all;
+  column-width: 100px;
+  column-rule-color:#357266;
+  column-rule-style: none;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  border-bottom-color: #357266;
+  margin-bottom: 70px;
+  padding-bottom: 70px;
+}
+
+.SFXtexts{
+  column-count: 3;
+  column-gap: 30px;
+  column-rule-style: solid;
+  column-rule-width: 5px;
+  column-span: all;
+  column-width: 100px;
+  column-rule-color:#357266;
+  column-rule-style: none;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  margin-top: 1px;
+}
+
+.animtexts{
+  column-count: 3;
+  column-gap: 30px;
+  column-rule-style: solid;
+  column-rule-width: 5px;
+  column-span: all;
+  column-width: 100px;
+  column-rule-color:#357266;
+  column-rule-style: none;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  margin-top: 1px;
+}
+
+.illtexts{
+  column-count: 2;
+  column-gap: 30px;
+  column-rule-style: solid;
+  column-rule-width: 5px;
+  column-span: all;
+  column-width: 100px;
+  column-rule-color:#357266;
+  column-rule-style: none;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  margin-top: 1px;
+}
+
+.animate{
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  border-bottom-color: #357266;
+  margin-bottom: 70px;
+  padding-bottom: 70px;
+}
+
+.illustrate{
+  margin-left: 250px;
+  margin-right: 250px;
+  text-align:center;
+  column-count: 2;
+  column-rule-style: solid;
+  column-span: 10%;
+  column-width: 100px;
+  column-rule-color:#357266;
+  column-rule-style: none;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  border-bottom-color: #357266;
+  margin-bottom: 70px;
+  padding-bottom: 70px;
+}
+
+.picture{
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align:center;
+  column-count: 3;
+  column-gap: 50px;
+  column-rule-style: solid;
+  column-rule-width: 5px;
+  column-span: all;
+  column-width: 100px;
+  column-rule-color:#357266;
+  column-rule-style: none;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  border-bottom-color: #357266;
+  margin-bottom: 70px;
+  padding-bottom: 70px;
+}
+
+.video{
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  border-bottom-color: #357266;
+  margin-bottom: 70px;
+  padding-bottom: 70px;
+}
+
+.vid1{
+  text-align: left;
+  margin-right: 11px;
+  margin-left:118px;
+}
+
+.vid2{
+  text-align: left;
+  margin-right: 11px;
+  margin-left: 25px;
+}
+
+.vid3{
+  text-align: left;
+  margin-right: 11px;
+  margin-left: 11px;
+}
+
+.vid4{
+  text-align: left;
+  margin-left: 11px;
 }
 
 h2{
-  font-size: 50px;
+  font-size: 60px;
   color:black;
   padding-right: 55%;
   text-align: right;
+}
+
+nav{
+  margin-bottom: 100px;
 }
 
 h3{
@@ -49,6 +228,8 @@ border: 20px;
 background-color: #357266;
 padding-top: 30px;
 padding-bottom: 30px;
+margin-left: 100px;
+margin-right: 100px;
 }
 
 p{
@@ -59,6 +240,11 @@ p{
 
 b{
   color:black;
+}
+
+.pagetext{
+  text-align: center;
+  font-size: 60px;
 }
 
 .texts{
@@ -82,19 +268,19 @@ li{
 }
 
 a{
-  color:black;
+  color:white;
   text-decoration: none;
   list-style-type: none;
 }
 
 a:visited{
-  color:black;
+  color:#white;
   text-decoration: none;
   list-style-type: none;
 }
 
 a:hover{
-  color: #95A3A4;
+  color: black;
   text-decoration: none;
   list-style-type: none;
 }
